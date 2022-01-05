@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  justify-content: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 10;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+input {
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#testID {
+  color: #4646b4;
+  background: #aba8f4;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#checkbox {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
