@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   input.addEventListener("keyup", () => {
     data.message = input.value;
-    data.id = Date.now();
+
     save(data);
   });
 });
